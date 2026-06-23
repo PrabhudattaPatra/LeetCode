@@ -5,6 +5,8 @@ class Solution:
             rem = target - num
             if rem in seen:
                 return [seen[rem],i]
-            seen[num] = i
+            seen[nums[i]] = i
+        
+        return [0,0]
 
 
