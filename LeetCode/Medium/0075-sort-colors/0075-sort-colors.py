@@ -15,4 +15,3 @@ class Solution:
                 nums[j],nums[k] = nums[k],nums[j]
                 j -= 1
         return nums
-        
